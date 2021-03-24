@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     
+    #external Apps
+    'crispy_forms',
+
     #local Apps
     'core.apps.CoreConfig',
 ]
@@ -123,4 +126,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
+#Session Cryspy forms
+CRISPY_TEMPLATE_PACK = 'bootstrap4'
