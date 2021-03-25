@@ -139,3 +139,4 @@ cython_debug/
 
 .vscode/
 db.sqlite3
+.venv/
