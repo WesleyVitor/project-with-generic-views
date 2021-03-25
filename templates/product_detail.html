@@ -17,6 +17,8 @@
   {{product.validate}}
 </p>
 
-
+<button><a style="text-decoration: none;" href="{{product.get_absolute_url_update}}">Atualizar</a></button> 
+<button><a style="text-decoration: none;" href="{% url 'core:delete' pk=product.pk %}">Deletar</a></button> 
+<button><a style="text-decoration: none;" href="{% url 'core:list'%}">Todos os Produtos</a></button>
 
 {%endblock%}
